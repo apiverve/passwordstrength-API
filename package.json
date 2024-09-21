@@ -1,0 +1,32 @@
+{
+  "name": "@apiverve/passwordstrength",
+  "version": "1.1.5",
+  "description": "Password Strength is a simple tool for checking the strength of a password. It returns the strength of the password based on various factors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apiverve/passwordstrength-API.git"
+  },
+  "keywords": [
+    "password strength","password strength api","password strength tool","password strength software","password strength service"
+  ],
+  "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apiverve/passwordstrength-API/issues"
+  },
+  "homepage": "https://apiverve.com/marketplace/api/passwordstrength?utm_source=npm",
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "promise": "^8.3.0",
+    "axios": "1.7.7"
+  }
+}
